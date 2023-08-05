@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moni's Meme Generator </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Submit your meme info below:</h1>
+      <!--action=where form data should be sent-->
+      <form action="" id="meme-form">
+        <p>
+          <label for="">Enter a caption header for your meme.
+          <input type="text" id="header-caption" name="headercaption" required>
+        </label>
+        </p>
+        <p>
+          <label for="">Enter the meme URL.                        
+          </label>
+          <input type="url" id="meme-url" name="memeURL" required>
+        </p>
+        <p>
+          <label for="">Enter a caption to place below your meme.
+          </label>
+          <input type="text" id="lower-caption" name="lowercaption" required>
+        </p>
+        <input type="submit" value="Submit">
+      </form>
+
+      <section id="results"> </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <form action="/submit-form" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <input type="submit" value="Submit">
+</form> -->
