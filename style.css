@@ -1,0 +1,16 @@
+.game div {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font: 200;
+  font-family: Georgia;
+}
+
+.backgroundcolor {
+  background-color: beige;
+}
