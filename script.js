@@ -7,7 +7,7 @@ const memeURLInput = document.querySelector('#meme-url');
 const lowerInput = document.querySelector('#lower-caption');
 
 document.querySelector('h1').classList.add('title');
-document.body.style.backgroundColor = 'beige';
+document.body.style.backgroundColor = 'purple';
 
 // A. Code to remove memes:
 // for each button of all buttons, when the button gets a 'click, remove the parentElement ('div')
